@@ -1,6 +1,6 @@
 body {
   background-color: navy;
-  color: white;
+  color: antiquewhite;
   text-align: center;
   margin: auto;
 }
@@ -9,25 +9,25 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: lightblue;
+  background-color: bisque;
   font-weight: 900;
 }
 
 .header li {
   display: inline-block;
-  background-color: navy;
+  background-color: lightcoral;
   border: 1px solid black;
   border-radius: 12px;
   padding: 15px 32px;
   text-align: center;
-  font-size: 16px;
-  color: antiquewhite;
+  font-size: 18px;
+  color: black;
   margin-right: 5px;
 }
 
 .header li:hover {
   display: inline-block;
-  background-color: lightblue;
+  background-color: aliceblue;
   border: 1px solid black;
   border-radius: 12px;
   padding: 15px 32px;
@@ -41,4 +41,9 @@ body {
   position: relative;
   margin-top: 70px;
   padding: 20px 150px;
+}
+
+.climber {
+  width: 350px;
+  height: 350px;
 }
