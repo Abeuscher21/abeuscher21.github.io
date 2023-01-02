@@ -42,7 +42,7 @@ body {
 
 .welcome {
   position: relative;
-  margin-top: 70px;
+  margin-top: 80px;
   padding: 20px 150px;
 }
 
@@ -62,4 +62,17 @@ body {
   padding: 5px;
   margin-right: 15px;
   text-align: justify;
+}
+
+/*styles for contact*/
+
+.socialmedia {
+  position: relative;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia a {
+  padding-right: 15px;
 }
