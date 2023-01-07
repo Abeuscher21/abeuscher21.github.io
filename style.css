@@ -4,7 +4,7 @@ body {
   text-align: center;
   font-size: 18px;
   margin-top: 80px;
-  padding: 20px 200px;
+  padding: 20px 150px;
 }
 
 .header {
@@ -45,6 +45,7 @@ body {
 
 .thumbnail {
   width: 133px;
+  height: 133px;
   border: 2px solid gray;
   padding: 5px;
 }
@@ -83,4 +84,20 @@ body {
 
 .socialmedia a {
   padding-right: 15px;
+}
+
+/*Styles for portfolio*/
+
+.portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 133px;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio {
+  display:block;
+  padding-right: 20px;
+  justify-content: center;
 }
