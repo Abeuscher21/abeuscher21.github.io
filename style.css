@@ -12,8 +12,8 @@ body {
   z-index: 1;
   top: 0;
   width: 100%;
-  background-color: darkblue;
-  font-weight: 900;
+  background-color: rgb(25, 25, 25);
+  font-weight: normal;
   letter-spacing: 1px;
   left: 0;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -21,26 +21,35 @@ body {
 
 .header li {
   display: inline-block;
-  background-color: antiquewhite;
+  background-color: rgb(86, 86, 86);
   border: 1px solid black;
   border-radius: 12px;
   padding: 15px 32px;
   text-align: center;
   font-size: 18px;
   letter-spacing: 1px;
-  color: black;
+  color: antiquewhite;
   margin-right: 8px;
 }
 
 .header li:hover {
   display: inline-block;
-  background-color: aliceblue;
+  background-color: rgb(107, 107, 107);
   border: 1px solid black;
   border-radius: 12px;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
-  color: black;
+  color: antiquewhite;
+}
+
+.header li a:visited {
+  color: antiquewhite
+}
+
+.fire {
+  width:fit-content;
+  margin-bottom: 100px;
 }
 
 .thumbnail {
